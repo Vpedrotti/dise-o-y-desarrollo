@@ -1,0 +1,255 @@
+        footer {
+                background-color: bisque;
+                height: 80px;
+                text-align: center;
+                padding-top: 20px;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                color: #333;
+        }
+        section{
+                background-color: rgb(222, 191, 221);
+                width: 70%;
+        }
+        aside{
+                background-color: rgb(222, 191, 221);
+                width: 20%;
+        }
+        main{
+                display: flex;
+                justify-content: space-around;
+        }
+        nav li{ display: inline;}
+        nav{
+                background-color: antiquewhite;
+                text-align: center;
+                height: 50px;
+                line-height: 50px;
+                margin-left: 0px;
+                margin-top: content;
+                word-spacing: 70px;
+         }
+        nav img {
+                float: left;
+             margin-top: 1px;
+        }
+        main img{
+            width: 450px;
+            text-align: center;
+        }
+        body {
+            font-family: 'Open Sans', sans-serif;
+            margin: 20px;
+            background-color: #fffdf9;
+            color: #333;
+            background-image: url(IMAGENES/patitas\ 2.jpeg);
+            background-size: cover;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.5em;
+            margin-top: 20px;
+            text-align: center;
+            color: #555;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 90%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+        }
+        p {
+            font-size: 1.1em;
+            line-height: 1.7;
+            margin: 15px 0;
+            text-align: justify;
+        }
+        article {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: rgb(222, 191, 221);
+            border-radius: 8px;
+        }
+        div a {
+            display: inline-block;
+            margin: 10px;
+            text-decoration: none;
+            color: #666;
+            font-weight: bold;
+        }   
+        hr {
+            margin-top: 40px;
+            border-top: 3px solid bisque;
+        }
+        div.perfil{
+            margin: 10px;
+            font-size: 12px;
+        }
+        aside {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 0.95em;
+            padding: 15px;
+            height: fit-content;
+        }
+        ul{
+            list-style: none;
+        }
+        .navegacion-posts {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            padding: 0 20px;
+        }
+        .navegacion-posts a {
+            text-decoration: none;
+            color: white;
+            background-color: #a76ccf;
+            padding: 10px 20px;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+        }
+        .navegacion-posts a:hover {
+            background-color: #8c4dc2;
+        }
+        form{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+        }
+        button{
+            cursor: pointer;
+            padding: 10px;
+        }
+        @media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section, aside {
+        width: 90%;
+    }
+
+    nav {
+        word-spacing: 20px;
+        height: auto;
+        line-height: normal;
+        padding: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    nav img {
+        float: none;
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.6em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    .navegacion-posts {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .navegacion-posts a {
+        width: 80%;
+        text-align: center;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    button {
+        width: 80%;
+    }
+}
+
+/* Tablets: entre 601px y 900px */
+@media screen and (min-width: 601px) and (max-width: 900px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section, aside {
+        width: 85%;
+    }
+
+    nav {
+        word-spacing: 40px;
+    }
+
+    nav li {
+        margin: 0 5px;
+    }
+
+    nav img {
+        float: none;
+        display: block;
+        margin: 0 auto;
+    }
+
+    main img {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    p {
+        font-size: 1.05em;
+    }
+
+    .navegacion-posts {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .navegacion-posts a {
+        padding: 10px 15px;
+    }
+
+    form {
+        width: 80%;
+    }
+
+    button {
+        width: 60%;
+    }
+                
+   
